@@ -284,3 +284,312 @@ if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_
 gmake[1]: 'mcan_ex9_transmit.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../c2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1271/ccs/utils/sysconfig_1.20.0/sysconfig_cli.bat" --script "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/c2000.syscfg" -o "syscfg" -s "C:/ti/c2000/C2000Ware_5_02_00_00/.metadata/sdk.json" -d "F28P55x" --package 128PDT --part F28P55x_128PDT --compiler ccs
+Running script...
+Validating...
+Generating Code (c2000.syscfg)...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\board.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\board.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\board.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\board.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\board.json...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\pinmux.csv...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\c2000ware_libraries.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\c2000ware_libraries.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\c2000ware_libraries.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_RAM\syscfg\clocktree.h...
+Finished building: "../c2000.syscfg"
+ 
+Building file: "../device/f28p55x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/f28p55x_codestartbranch.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/f28p55x_codestartbranch.asm"
+Finished building: "../device/f28p55x_codestartbranch.asm"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 227: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'mcan_ex4_receive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_FLASH for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../c2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1271/ccs/utils/sysconfig_1.20.0/sysconfig_cli.bat" --script "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/c2000.syscfg" -o "syscfg" -s "C:/ti/c2000/C2000Ware_5_02_00_00/.metadata/sdk.json" -d "F28P55x" --package 128PDT --part F28P55x_128PDT --compiler ccs
+Running script...
+Validating...
+Generating Code (c2000.syscfg)...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\board.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\board.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\board.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\board.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\board.json...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\pinmux.csv...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\c2000ware_libraries.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\c2000ware_libraries.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\c2000ware_libraries.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\mcan_ex4_receive\CPU1_FLASH\syscfg\clocktree.h...
+Finished building: "../c2000.syscfg"
+ 
+Building file: "../device/f28p55x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_FLASH --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/f28p55x_codestartbranch.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/f28p55x_codestartbranch.asm"
+Finished building: "../device/f28p55x_codestartbranch.asm"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_FLASH --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_FLASH --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_FLASH --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=_FLASH --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 227: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=_FLASH --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=_FLASH --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_flash_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_FLASH/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 227: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'mcan_ex4_receive.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 227: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 227: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 227: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 229: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project mcan_ex4_receive ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../mcan_ex4_receive.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="mcan_ex4_receive.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../mcan_ex4_receive.c"
+"../mcan_ex4_receive.c", line 229: warning #112-D: statement is unreachable
+Finished building: "../mcan_ex4_receive.c"
+ 
+Building target: "mcan_ex4_receive.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex4_receive.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex4_receive_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex4_receive.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./mcan_ex4_receive.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "mcan_ex4_receive.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex4_receive/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
