@@ -1,5 +1,5 @@
 
-**** Build of configuration CPU1_FLASH for project mcan_ex9_transmit ****
+**** Build of configuration CPU1_RAM for project mcan_ex9_transmit ****
 
 "C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
  

@@ -142,7 +142,7 @@ all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 mcan_ex9_transmit.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: C2000 Linker'
-	"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex9_transmit.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/mcan_ex9_transmit/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex9_transmit_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex9_transmit.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"mcan_ex9_transmit.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/mcan_ex9_transmit/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="mcan_ex9_transmit_linkInfo.xml" --entry_point=code_start --rom_model -o "mcan_ex9_transmit.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 	@$(MAKE) --no-print-directory post-build
@@ -159,9 +159,9 @@ clean:
 
 post-build:
 	-echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
-	-if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/mcan_ex9_transmit/CPU1_RAM/syscfg" "D:/workspace1/mcan_ex9_transmit/CPU1_RAM/syscfg/clb.dot"
-	-if 0 == 1  mkdir "D:/workspace1/mcan_ex9_transmit/CPU1_RAM/diagrams"
-	-if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/mcan_ex9_transmit/CPU1_RAM/diagrams" "D:/workspace1/mcan_ex9_transmit/CPU1_RAM/syscfg"
+	-if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex9_transmit/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex9_transmit/CPU1_RAM/syscfg/clb.dot"
+	-if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/mcan_ex9_transmit/CPU1_RAM/diagrams"
+	-if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex9_transmit/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/mcan_ex9_transmit/CPU1_RAM/syscfg"
 	-@echo ' '
 
 .PHONY: all clean dependents
