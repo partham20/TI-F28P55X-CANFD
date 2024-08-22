@@ -7,6 +7,8 @@
 #include "inc/stw_dataTypes.h"
 #include <string.h>
 
+typedef uint8_t i8;
+
 //
 // Defines.
 //
@@ -34,7 +36,7 @@ int sendCANMessage(uint32_t msgId, uint8_t* data, uint32_t dataLength);
 //
 int main(void)
 {
-    uint8_t data[64] = {0x1, 0x2, 0x3, 0x4}; // Sample data
+    i8 data[64] = {0x1, 0x2, 0x3, 0x4}; // Sample data
 
     // Send a CAN message with standard ID 0x4
     if (sendCANMessage(0x4, data, 4) == 0)
@@ -65,18 +67,8 @@ int sendCANMessage(uint32_t msgId, uint8_t* data, uint32_t dataLength)
         return -1; // Return error if dataLength exceeds 64 bytes
     }
 
-    // Initialize the device and MCAN module if needed
-    // You can also assume initialization is done elsewhere and remove this
-    Device_init();
-    Device_initGPIO();
-    SysCtl_setMCANClk(SYSCTL_MCANA, SYSCTL_MCANCLK_DIV_5);
-    Interrupt_initModule();
-    Interrupt_initVectorTable();
-    EINT;
-    ERTM;
-
-    GPIO_setPinConfig(DEVICE_GPIO_CFG_MCANRXA);
-    GPIO_setPinConfig(DEVICE_GPIO_CFG_MCANTXA);
+    // Configure the MCAN Module.
+    MCANConfig();
 
     // Initialize message to transmit
     txMsg.id = (msgId << 18U); // Convert 11-bit standard ID to internal format
@@ -94,8 +86,7 @@ int sendCANMessage(uint32_t msgId, uint8_t* data, uint32_t dataLength)
         txMsg.data[i] = data[i];
     }
 
-    // Configure the MCAN Module.
-    MCANConfig();
+
 
     // Write message to Message RAM.
     MCAN_writeMsgRam(MCANA_DRIVER_BASE, MCAN_MEM_TYPE_BUF, 0U, &txMsg);
@@ -116,6 +107,22 @@ int sendCANMessage(uint32_t msgId, uint8_t* data, uint32_t dataLength)
 //
 static void MCANConfig(void)
 {
+
+
+    // Initialize the device and MCAN module if needed
+    // You can also assume initialization is done elsewhere and remove this
+    Device_init();
+    Device_initGPIO();
+    SysCtl_setMCANClk(SYSCTL_MCANA, SYSCTL_MCANCLK_DIV_5);
+    Interrupt_initModule();
+    Interrupt_initVectorTable();
+    EINT;
+    ERTM;
+
+    GPIO_setPinConfig(DEVICE_GPIO_CFG_MCANRXA);
+    GPIO_setPinConfig(DEVICE_GPIO_CFG_MCANTXA);
+
+
     MCAN_InitParams initParams;
     MCAN_MsgRAMConfigParams    msgRAMConfigParams;
     MCAN_BitTimingParams       bitTimes;

@@ -1,3 +1,9 @@
-2024/08/22-11:28:36.054 9c6c Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001
-2024/08/22-11:28:36.055 9c6c Recovering log #3
-2024/08/22-11:28:36.056 9c6c Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log 
+<<<<<<< HEAD
+2024/08/22-11:39:17.507 4d94 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001
+2024/08/22-11:39:17.510 4d94 Recovering log #3
+2024/08/22-11:39:17.510 4d94 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log 
+=======
+2024/08/07-14:41:04.870 8d24 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001
+2024/08/07-14:41:04.870 8d24 Recovering log #3
+2024/08/07-14:41:04.871 8d24 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log 
+>>>>>>> parent of 8394ca7 (Created Wrapper Function)

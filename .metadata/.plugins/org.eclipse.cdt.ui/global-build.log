@@ -718,6 +718,7 @@ gmake[1]: 'mcan_ex9_transmit.out' is up to date.
 gmake[1]: 'mcan_ex9_transmit.out' is up to date.
 
 **** Build Finished ****
+<<<<<<< HEAD
 
 **** Build of configuration CPU1_RAM for project empty_driverlib_project ****
 
@@ -1075,6 +1076,304 @@ Building file: "../empty_driverlib_main.c"
 Invoking: C2000 Compiler
 "C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
 Finished building: "../empty_driverlib_main.c"
+ 
+Building target: "empty_driverlib_project.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"empty_driverlib_project.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="empty_driverlib_project_linkInfo.xml" --entry_point=code_start --rom_model -o "empty_driverlib_project.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./empty_driverlib_main.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "empty_driverlib_project.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project empty_driverlib_project ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../empty_driverlib_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
+Finished building: "../empty_driverlib_main.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building target: "empty_driverlib_project.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"empty_driverlib_project.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="empty_driverlib_project_linkInfo.xml" --entry_point=code_start --rom_model -o "empty_driverlib_project.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./empty_driverlib_main.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "empty_driverlib_project.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project empty_driverlib_project ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../empty_driverlib_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
+Finished building: "../empty_driverlib_main.c"
+ 
+Building target: "empty_driverlib_project.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"empty_driverlib_project.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="empty_driverlib_project_linkInfo.xml" --entry_point=code_start --rom_model -o "empty_driverlib_project.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./empty_driverlib_main.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "empty_driverlib_project.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project empty_driverlib_project ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../empty_driverlib_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
+Finished building: "../empty_driverlib_main.c"
+ 
+Building target: "empty_driverlib_project.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"empty_driverlib_project.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="empty_driverlib_project_linkInfo.xml" --entry_point=code_start --rom_model -o "empty_driverlib_project.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./empty_driverlib_main.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "empty_driverlib_project.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+=======
+>>>>>>> parent of 8394ca7 (Created Wrapper Function)
+
+**** Build of configuration CPU1_RAM for project empty_driverlib_project ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../c2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1271/ccs/utils/sysconfig_1.20.0/sysconfig_cli.bat" --script "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/c2000.syscfg" -o "syscfg" -s "C:/ti/c2000/C2000Ware_5_02_00_00/.metadata/sdk.json" -d "F28P55x" --package 128PDT --part F28P55x_128PDT --compiler ccs
+Running script...
+Validating...
+Generating Code (c2000.syscfg)...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.json...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\pinmux.csv...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\clocktree.h...
+Finished building: "../c2000.syscfg"
+ 
+Building file: "../device/f28p55x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/f28p55x_codestartbranch.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/f28p55x_codestartbranch.asm"
+Finished building: "../device/f28p55x_codestartbranch.asm"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building file: "../empty_driverlib_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
+Finished building: "../empty_driverlib_main.c"
+ 
+Building target: "empty_driverlib_project.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"empty_driverlib_project.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="empty_driverlib_project_linkInfo.xml" --entry_point=code_start --rom_model -o "empty_driverlib_project.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./empty_driverlib_main.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "empty_driverlib_project.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_RAM for project Send ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 clean -O 
+ 
+DEL /F  "syscfg\board.h" "syscfg\board.cmd.genlibs" "syscfg\board.json" "syscfg\pinmux.csv" "syscfg\c2000ware_libraries.cmd.genlibs" "syscfg\c2000ware_libraries.h" "syscfg\clocktree.h"  "syscfg\board.c" "syscfg\board.opt" "syscfg\c2000ware_libraries.opt" "syscfg\c2000ware_libraries.c"  "empty_driverlib_project.out" 
+DEL /F "syscfg\board.obj" "syscfg\c2000ware_libraries.obj" "empty_driverlib_main.obj" "device\device.obj" "device\f28p55x_codestartbranch.obj" 
+DEL /F "syscfg\board.d" "syscfg\c2000ware_libraries.d" "empty_driverlib_main.d" "device\device.d" 
+DEL /F "device\f28p55x_codestartbranch.d" 
+RMDIR /S/Q  "syscfg" 
+Could Not Find D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\device\f28p55x_codestartbranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project Send ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../c2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1271/ccs/utils/sysconfig_1.20.0/sysconfig_cli.bat" --script "D:/workspace1/TI-F28P55X-CANFD/Send/c2000.syscfg" -o "syscfg" -s "C:/ti/c2000/C2000Ware_5_02_00_00/.metadata/sdk.json" -d "F28P55x" --package 128PDT --part F28P55x_128PDT --compiler ccs
+Running script...
+Validating...
+Generating Code (c2000.syscfg)...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\board.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\board.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\board.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\board.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\board.json...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\pinmux.csv...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\c2000ware_libraries.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\c2000ware_libraries.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\c2000ware_libraries.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\Send\CPU1_RAM\syscfg\clocktree.h...
+Finished building: "../c2000.syscfg"
+ 
+Building file: "../device/f28p55x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/Send" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/f28p55x_codestartbranch.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/f28p55x_codestartbranch.asm"
+Finished building: "../device/f28p55x_codestartbranch.asm"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/Send" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/Send" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "../empty_driverlib_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/Send" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
+Finished building: "../empty_driverlib_main.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/Send" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building target: "Send.out"
+Invoking: C2000 Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi -z -m"Send.map" --heap_size=0x100 --stack_size=0x200 --warn_sections -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/lib" -i"C:/ti/c2000/C2000Ware_5_02_00_00" -i"D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --reread_libs --define=RAM --diag_wrap=off --display_error_number --xml_link_info="Send_linkInfo.xml" --entry_point=code_start --rom_model -o "Send.out" "./syscfg/board.obj" "./syscfg/c2000ware_libraries.obj" "./empty_driverlib_main.obj" "./device/device.obj" "./device/f28p55x_codestartbranch.obj" "../28p55x_generic_ram_lnk.cmd" "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib/ccs/Debug/driverlib.lib"  -lc2000ware_libraries.cmd.genlibs -llibc.a 
+<Linking>
+Finished building target: "Send.out"
+ 
+echo "========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+"========= Build of the CLB simulation has moved to the CLB Tool. Click the '?' icon by the _Generate CLB Simulation File_ enable for more details (located in the Global Parameters of the Tile Design SysConfig module) ============="
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "C:/ti/c2000/C2000Ware_5_02_00_00/utilities/clb_tool/clb_syscfg/" "D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg" "D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg/clb.dot"
+if 0 == 1  mkdir "D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/diagrams"
+if 0 == 1  C:/ti/ccs1271/ccs/tools/node/node.exe "C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/.meta/generate_diagrams.js" "C:/ti/c2000/C2000Ware_5_02_00_00" "D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/diagrams" "D:/workspace1/TI-F28P55X-CANFD/Send/CPU1_RAM/syscfg"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration CPU1_RAM for project empty_driverlib_project ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 clean -O 
+ 
+DEL /F  "syscfg\board.h" "syscfg\board.cmd.genlibs" "syscfg\board.json" "syscfg\pinmux.csv" "syscfg\c2000ware_libraries.cmd.genlibs" "syscfg\c2000ware_libraries.h" "syscfg\clocktree.h"  "syscfg\board.c" "syscfg\board.opt" "syscfg\c2000ware_libraries.opt" "syscfg\c2000ware_libraries.c"  "Send.out" 
+DEL /F "syscfg\board.obj" "syscfg\c2000ware_libraries.obj" "empty_driverlib_main.obj" "device\device.obj" "device\f28p55x_codestartbranch.obj" 
+DEL /F "syscfg\board.d" "syscfg\c2000ware_libraries.d" "empty_driverlib_main.d" "device\device.d" 
+DEL /F "device\f28p55x_codestartbranch.d" 
+RMDIR /S/Q  "syscfg" 
+Could Not Find D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\device\f28p55x_codestartbranch.d
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration CPU1_RAM for project empty_driverlib_project ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../c2000.syscfg"
+Invoking: SysConfig
+"C:/ti/ccs1271/ccs/utils/sysconfig_1.20.0/sysconfig_cli.bat" --script "D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/c2000.syscfg" -o "syscfg" -s "C:/ti/c2000/C2000Ware_5_02_00_00/.metadata/sdk.json" -d "F28P55x" --package 128PDT --part F28P55x_128PDT --compiler ccs
+Running script...
+Validating...
+Generating Code (c2000.syscfg)...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\board.json...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\pinmux.csv...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.cmd.genlibs...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.opt...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.c...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\c2000ware_libraries.h...
+Writing D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project\CPU1_RAM\syscfg\clocktree.h...
+Finished building: "../c2000.syscfg"
+ 
+Building file: "../device/f28p55x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/f28p55x_codestartbranch.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/f28p55x_codestartbranch.asm"
+Finished building: "../device/f28p55x_codestartbranch.asm"
+ 
+Building file: "syscfg/c2000ware_libraries.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/c2000ware_libraries.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/c2000ware_libraries.c"
+Finished building: "syscfg/c2000ware_libraries.c"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building file: "../empty_driverlib_main.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="empty_driverlib_main.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../empty_driverlib_main.c"
+Finished building: "../empty_driverlib_main.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu1 --vcu_support=vcrc -Ooff --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/device" --include_path="C:/ti/c2000/C2000Ware_5_02_00_00/driverlib/f28p55x/driverlib" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include" --define=DEBUG --define=RAM --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/workspace1/TI-F28P55X-CANFD/empty_driverlib_project/CPU1_RAM/syscfg" --obj_directory="device" --cmd_file="syscfg/board.opt" --cmd_file="syscfg/c2000ware_libraries.opt"  "../device/device.c"
+Finished building: "../device/device.c"
  
 Building target: "empty_driverlib_project.out"
 Invoking: C2000 Linker

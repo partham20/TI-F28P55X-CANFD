@@ -1,3 +1,9 @@
-2024/08/22-11:39:17.605 22b8 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
-2024/08/22-11:39:17.608 22b8 Recovering log #3
-2024/08/22-11:39:17.609 22b8 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Local Storage\leveldb/000003.log 
+<<<<<<< HEAD
+2024/08/22-11:58:01.429 46e0 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
+2024/08/22-11:58:01.433 46e0 Recovering log #3
+2024/08/22-11:58:01.435 46e0 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Local Storage\leveldb/000003.log 
+=======
+2024/08/22-10:09:08.196 2c44 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Local Storage\leveldb/MANIFEST-000001
+2024/08/22-10:09:08.200 2c44 Recovering log #3
+2024/08/22-10:09:08.201 2c44 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Local Storage\leveldb/000003.log 
+>>>>>>> parent of 8394ca7 (Created Wrapper Function)

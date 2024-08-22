@@ -1,3 +1,9 @@
-2024/08/22-11:28:36.890 ac90 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/MANIFEST-000001
-2024/08/22-11:28:36.892 ac90 Recovering log #3
-2024/08/22-11:28:36.894 ac90 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/000003.log 
+<<<<<<< HEAD
+2024/08/22-11:39:18.686 22b8 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/MANIFEST-000001
+2024/08/22-11:39:18.690 22b8 Recovering log #3
+2024/08/22-11:39:18.692 22b8 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/000003.log 
+=======
+2024/08/07-14:41:06.027 9328 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/MANIFEST-000001
+2024/08/07-14:41:06.029 9328 Recovering log #3
+2024/08/07-14:41:06.031 9328 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/000003.log 
+>>>>>>> parent of 8394ca7 (Created Wrapper Function)

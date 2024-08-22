@@ -1,3 +1,9 @@
-2024/08/22-11:28:40.118 47a0 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\GCM Store\Encryption/MANIFEST-000001
-2024/08/22-11:28:40.121 47a0 Recovering log #3
-2024/08/22-11:28:40.121 47a0 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\GCM Store\Encryption/000003.log 
+<<<<<<< HEAD
+2024/08/22-11:39:21.377 6118 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\GCM Store\Encryption/MANIFEST-000001
+2024/08/22-11:39:21.379 6118 Recovering log #3
+2024/08/22-11:39:21.380 6118 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\GCM Store\Encryption/000003.log 
+=======
+2024/08/07-14:41:09.614 487c Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\GCM Store\Encryption/MANIFEST-000001
+2024/08/07-14:41:09.616 487c Recovering log #3
+2024/08/07-14:41:09.617 487c Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\GCM Store\Encryption/000003.log 
+>>>>>>> parent of 8394ca7 (Created Wrapper Function)
