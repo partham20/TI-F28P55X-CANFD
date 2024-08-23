@@ -5,7 +5,7 @@
 	<section name="com.ti.ccstudio.project.ui.internal.properties.DynamicPropertiesPageManager">
 	</section>
 	<section name="com.ti.ccstudio.project.ui.internal.wizards.importexport.ProjectImportPage">
-		<item key="CCS.BROWSE_DIRS_FILTER" value="D:\workspace1\TI-F28P55X-CANFD\empty_driverlib_project"/>
+		<item key="CCS.BROWSE_DIRS_FILTER" value="C:\ti\c2000\C2000Ware_5_02_00_00\driverlib\f28p55x\examples\empty_projects\CCS"/>
 		<item key="CCS.COPY_INTO_WORKSPACE" value="false"/>
 		<item key="CCS.IMPORT_REFERENCED_PROJECTS" value="false"/>
 		<item key="CCS.IMPORT_FROM_ARCHIVE" value="false"/>
