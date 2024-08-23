@@ -1,3 +1,2 @@
-2024/08/22-11:39:18.686 22b8 Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/MANIFEST-000001
-2024/08/22-11:39:18.690 22b8 Recovering log #3
-2024/08/22-11:39:18.692 22b8 Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/000003.log 
+2024/08/23-11:43:26.381 1be8 Creating DB D:\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage since it was missing.
+2024/08/23-11:43:26.422 1be8 Reusing MANIFEST D:\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Session Storage/MANIFEST-000001

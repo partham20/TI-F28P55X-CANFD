@@ -1,3 +1,5 @@
-2024/08/22-11:28:36.054 9c6c Reusing MANIFEST D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001
-2024/08/22-11:28:36.055 9c6c Recovering log #3
-2024/08/22-11:28:36.056 9c6c Reusing old log D:\workspace1\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log 
+2024/08/23-11:43:25.410 76a4 Log #3: 5 ops saved to Table #4 OK
+2024/08/23-11:43:25.477 76a4 Archiving D:\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log: OK
+2024/08/23-11:43:25.477 76a4 Table #4: 5 entries OK
+2024/08/23-11:43:25.498 76a4 Archiving D:\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001: OK
+2024/08/23-11:43:25.570 76a4 **** Repaired leveldb D:\TI-F28P55X-CANFD\.jxbrowser.userdata\Default\Site Characteristics Database; recovered 1 files; 237 bytes. Some data may have been lost. ****
